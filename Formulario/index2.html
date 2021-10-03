@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="titulo">
+  <h1>Subir Contenido </h1>
+</header>
+
+<div class="bodys">
+
+
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">MATERIA: </label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">a qué vas a aportar...</option>
+            
+            <option>Física y Química </option>
+            <option>Geografía        </option>
+            <option>Historia         </option>
+            <option>Informática      </option>
+            <option>IPS              </option>
+            <option>Language         </option>
+            <option>Lengua y Lit     </option>
+            <option>literature       </option>
+            <option>Matemática       </option>
+            
+          </select>
+<br><br>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">AÑO: </label>
+             <select class="form-select" id="validationCustom04" required>
+               <option selected disabled value="">a dónde vas a aportar...</option>
+               <option>de tercero</option>
+               <option>de cuarto</option>
+             </select>
+
+          <div class="invalid-feedback">
+            Que eligas una materia te digo!
+          </div>
+       <br><br>
+
+
+       Ponele nombre a la tarea que querés subir 
+       <br>
+       <input class="form-control" type="text" placeholder="nombre de la tarea ... " aria-label="default input example">
+
+
+
+
+
+
+          <!-- <div class="mb-3">
+            <label for="validationTextarea" class="form-label">Nombre</label>
+            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Ponele un nombre a la tarea que vas a subir" required></textarea>
+            <div class="invalid-feedback">
+              Que le pongas un nombre te digo!
+            </div>
+          </div> -->
+
+<br><br>      
+
+        <div class="col-12">
+        
+          <button class="btn btn-dark btn-lg" type="submit" value="submit">Subir</button>
+        </div>
+      </form> 
+</div>
+
+</body>
+<script src="/Formulario/jaava.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+
+
+</html>
